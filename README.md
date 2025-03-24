@@ -82,6 +82,7 @@ INSERT INTO Company (name, location, industry, website) VALUES
 ```
 
 ## Queries
+![alt text](<Queries Results.png>)
 ### Retrieve all jobs with company details
 ```sql
 SELECT J.job_id, J.title, J.description, J.salary, C.name AS company_name, C.location
